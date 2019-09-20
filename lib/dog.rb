@@ -16,7 +16,7 @@ def self.print_all
   @@all.each {|obj| print obj.name}
 end
 
-def initialize (name)
+def initialize= (name)
   @name = name
   save
 end
