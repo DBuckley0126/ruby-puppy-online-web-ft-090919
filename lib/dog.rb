@@ -15,7 +15,7 @@ end
 def self.print_all
   @@all.each do |obj|
     #binding.pry
-    print obj.name
+    puts obj.name
   end
 end
 
