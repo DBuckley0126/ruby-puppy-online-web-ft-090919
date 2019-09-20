@@ -13,7 +13,7 @@ def self.all
 end
 
 def self.print_all
-  @@all.each {|obj| print obj.name}
+  @@all.each {|obj| print @name}
 end
 
 def initialize= (name)
@@ -22,7 +22,5 @@ def initialize= (name)
 end
 
 
-
-
 end
-binding.pry
+#binding.pry
