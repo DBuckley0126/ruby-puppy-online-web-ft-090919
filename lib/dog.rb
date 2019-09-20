@@ -16,6 +16,10 @@ def self.print_all
   @@all.each {|obj| print @name}
 end
 
+def self.clear
+  @@all.clear
+end
+
 def initialize (name)
   @name = name
   save
