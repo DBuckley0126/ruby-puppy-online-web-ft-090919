@@ -21,7 +21,8 @@ def initialize (name)
   save
 end
 
-binding.pry
+
 
 
 end
+binding.pry
