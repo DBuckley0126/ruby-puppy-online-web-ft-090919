@@ -13,7 +13,10 @@ def self.all
 end
 
 def self.print_all
-  @@all.each {|obj| print @name}
+  @@all.each do |obj|
+    binding.pry
+    print @name
+  end
 end
 
 def self.clear_all
@@ -27,4 +30,3 @@ end
 
 
 end
-#binding.pry
