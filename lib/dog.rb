@@ -14,8 +14,8 @@ end
 
 def self.print_all
   @@all.each do |obj|
-    binding.pry
-    print @name
+    #binding.pry
+    print obj.name
   end
 end
 
